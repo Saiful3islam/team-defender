@@ -1,0 +1,139 @@
+img{
+    max-width: 100%;
+    
+}
+.header img{
+    width: 150px;
+    margin-top: 10px;
+}
+.header{
+background-color: rgb(0, 204, 194);
+}
+.header ul{
+   text-align: center;
+   margin-top: 10px;
+  
+
+}
+.header ul li{
+display: inline-block;
+
+}
+.header ul li a{
+display: block;
+color: rgb(255, 255, 255);
+border: 2px solid yellow;
+border-radius: 10px;
+padding: 10px 30px;
+text-decoration: none;
+margin-right: 20px;
+text-transform: capitalize;
+
+}
+.header ul li a:hover{
+border: 3px white solid;
+border-radius: 10px;
+color: yellow;
+}
+.header-btn{
+    margin-left: 100px;
+    
+    border-radius: 5px;
+    padding: 10px 30px;
+    line-height: 50px;
+    margin-top: 2px;
+    color: rgb(0, 204, 194) !important;
+    text-decoration:none;
+    background-color: #fff;
+}
+.header-btn:hover{
+    border: 1px white solid;
+    background: none;
+    color: #fff !important;
+}
+a{
+    text-decoration: none !important;
+}
+.header ul li ul{
+    position: absolute;
+    top:100%;
+    left:0;
+}
+.banner{
+    background: url(./gallery-banner.jpg);
+    background-size: cover;
+    height: 500px;
+}
+.banner h1{
+color: #fff;
+text-transform: capitalize;
+margin: 80px 0px;
+
+}
+.banner a{
+color: rgb(0, 0, 0);
+background-color: #fff;
+text-transform: capitalize;
+padding: 20px;
+border-radius: 10px;
+margin-top: 10px;
+}
+
+.banner a:hover{
+    background: none;
+    color: #fff;
+    border: 1px white solid;
+}
+.team img{
+    border-radius: 50%;
+    margin-bottom: 50px;
+    border: 5px rgb(245, 242, 242) solid;
+    box-shadow: 0px 1px 2px black;
+}
+.ourteam h1{
+    text-transform: capitalize;
+    padding-top: 200px;
+}
+.quality h1{
+    text-transform: capitalize;
+    padding-top: 300px;
+}
+.serviceq h1{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.serviceq a{
+    color: rgb(255, 255, 255);
+}
+.serviceq span{
+    color: rgb(255, 0, 106);
+    font-size: 70px;
+}
+.qualittt{
+border-left: 5px solid;
+border-image: linear-gradient( rgb(0, 255, 64), cyan, red);
+border-image-slice: 1;
+padding-left: 0px;
+}
+.choose-me h1{
+    text-transform: capitalize;
+    padding-top: 300px;
+    text-align: center;
+}
+.card span{
+    color: rgb(255, 0, 0);
+    font-size: 80px;
+}
+.card{
+    width: 350px;
+    height: 250px;
+}
+.footer{
+    background-color: #487eb0;
+    margin-top: 300px;
+    padding: 100px 50px
+}
+.footer h1{
+    text-transform: capitalize;
+}
